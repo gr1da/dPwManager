@@ -1,4 +1,4 @@
-namespace DdbaseTest;
+namespace Ddbase.Tests;
 
 [TestClass]
 public class UnitTest1
