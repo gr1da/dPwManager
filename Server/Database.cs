@@ -32,6 +32,17 @@ public partial class Database {
         _backing = backingStore;
         _data = dataStructure;
     }
+
+    private string retrieve(string key) {
+        return "";
+    }
+
+    public string this[string key] {
+        get => retrieve(key);
+        set {
+
+        }
+    }
 }
 
 public partial class DummyBackingStore : IBackingStore {
